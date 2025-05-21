@@ -1,0 +1,5 @@
+-- CIA triad --
+* confidentiality (prevent unauthorized information disclosure): passwords, encryption, access controls, 2FA
+* integrity (information can't be modified without detection): logs, hashing, digital signatures, non-repudiation
+* availability (uptime): redundancy, fault tolerance, load balancers, patches
+

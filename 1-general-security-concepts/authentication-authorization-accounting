@@ -1,0 +1,9 @@
+-- AAA framework --
+* identification: username
+* authentication: password
+* authorization: determine permissions
+* accounting: resources used, login time, data sent and recieved, logout time
+
+-- VPN example --
+1) 
+

@@ -1,0 +1,16 @@
+-- Proof of integrity --
+* ensure message wasn't altered in transit
+* use hashing
+
+-- Proof of origin --
+* verify who sent the message and that it wasn't forged
+* use digital signatures
+
+-- Creating and verifying a digital signature --
+1) alice sends a message to bob
+2) alice hashes the message
+3) alice SK encrypts the hash (creating a digital signature)
+4) bob recieves the message and the digital signature
+5) bob uses alice's PK to decrypt digital signature to reveal the alice's hash
+6) bob hashes the message and compares with the decrypted hash
+
