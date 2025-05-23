@@ -1,0 +1,26 @@
+-- AAA framework --
+* identification: username
+* authentication: password
+* authorization: determine permissions
+* accounting: logging
+
+-- VPN example --
+1) client wants to connect to an internal file server
+2) client sends auth details to VPN concentrator
+3) VPN reaches out to AAA server to validate credentials
+4) AAA server authorizes credentials
+5) VPN grants access to internal file server
+
+-- Authenticating systems --
+* can't type a password so instead we put a digitally signed certificate on the device
+
+-- Certificate authentication --
+* an organization has a trusted Certificate Authority (CA)
+* most orgs maintain their own CAs
+1) CA digitally signs the device cert
+2) when device trys to access confidential info, the cert is verified by the CA (proof of origin)
+
+-- Authorization model --
+* basically like discord roles
+* each group has a set of associated permissions
+

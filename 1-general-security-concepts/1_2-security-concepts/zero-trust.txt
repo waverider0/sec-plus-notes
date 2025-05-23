@@ -1,0 +1,31 @@
+once inside the firewall, lateral movement is often unchecked
+
+-- Zero trust premise --
+* nothing is inherently trusted
+* all access requrests must be authenticated, authorized, and encrypted
+* applies to everything (users, devices, processes, etc.)
+
+-- "Planes of operation" --
+* data plane (actual traffic): packets, NAT, routing
+* control plane (config and logic): policies, routing tables, firewall rules
+
+-- Adaptive identity --
+* determine trust level of the person making the request
+* consider factors like: geolocation, user role, IP origin, user role, connection type
+* make authentication strong if needed (multiple captchas, 2FA)
+
+-- Access restrictions --
+* limit access points to reduce attack surface
+* e.g: on-prem only, VPN required
+
+-- Zero trust flow --
+user makes a request -> ) PEP (policy enforcement point) grants or denies access
+(PEP is just a piece of software like a firewall)
+
+But the test wants you to memorize all of this random jargon!
+1. PEP intercepts requests and forwards to "policy admin"
+2. admin consults PDP (policy decision point)
+3. PDP consults polices, makes decision
+4. admin relays outcome to PEP
+5. PEP grants or denies access
+

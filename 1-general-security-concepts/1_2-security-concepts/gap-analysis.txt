@@ -1,0 +1,10 @@
+-- Gap analysis --
+* comparing current state with desired state
+* requires understanding systems, processes, people
+
+1) use a baseline
+2) choose one from a standards body (NIST, ISO, IEC) or make your own
+3) evaluate what exists, compare to what's needed, note the differences
+4) mark things as good, okay, bad
+5) make a plan to fix what's bad
+6) summarize in a report

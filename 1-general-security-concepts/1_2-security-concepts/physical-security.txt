@@ -1,0 +1,13 @@
+Bollards:
+* allows people, prevents large vehicles like cars and trucks
+* basically the target balls
+
+Access control vestibules:
+* basically an airlock (like in rust)
+* enforces one at a time
+
+-- Common sensor types --
+* infrared: common in motion sensors
+* pressure: good for floors and windows
+* microwave: good for large areas
+* ultrasonic: good in enclosed spaces

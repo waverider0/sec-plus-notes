@@ -1,0 +1,14 @@
+-- Control categories --
+* Technical (software, information): OS, firewalls, AVs
+* Managerial (org, policies): security policies, standard operating procedures
+* Operational (staff, behavioral): security guards, posters, awareness, social engineering training
+* Physical: fences, locks, CCTV, motion detectors
+
+-- Control types --
+* Preventative: firewalls, locks, onboarding policies
+* Deterrent: threat of punishment, scary warning signs
+* Detective (detection, discovery): system logs, login reports, motion detectors, property patrols
+* Corrective (after discovering): backup recovery, account lockout, calling cops, fire extinguisher
+* Compensating (temporary risk mitigation until better solution is available): firewall blocks instead of patching the app
+* Directive (instructions, policies): file storage policies, "authorized personnel only" sign
+
